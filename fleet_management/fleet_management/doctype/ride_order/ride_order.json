@@ -14,7 +14,8 @@
   "vehicle",
   "column_break_ttdhj",
   "status",
-  "pickup_address"
+  "pickup_address",
+  "location"
  ],
  "fields": [
   {
@@ -61,11 +62,16 @@
    "fieldtype": "Link",
    "label": "Vehicle",
    "options": "Vehicle"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "Location"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-22 12:55:50.114066",
+ "modified": "2024-03-22 15:31:07.801256",
  "modified_by": "Administrator",
  "module": "Fleet Management",
  "name": "Ride Order",
